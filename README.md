@@ -1,4 +1,4 @@
-import React from "react";
+import React from "./App.css";
 import "./App.css";
 
 function App() {

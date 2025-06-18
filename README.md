@@ -7,14 +7,48 @@ function App() {
       {/* Header */}
       <header className="app-header">
         <div className="header-left">
-          <span className="header-icon">
-            <svg width="36" height="36" fill="white" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/></svg>
-          </span>
-          <span className="header-title">Thế giới di </span>
+          Thế giới di động
         </div>
         <div className="header-center">
-          <button className="stat-btn">
-            <svg height="18" width="18" fill="white" style={{marginRight: 7, verticalAlign: "middle"}} viewBox="0 0 24 24">dong-store",
+          <svg height="18" width="18" fill="white" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" />
+          </svg>
+        </div>
+      </header>
+      {/* Main content here */}
+    </div>
+  );
+}
+
+export default App;.app-root {
+  min-height: 100vh;
+  background: #f5f5fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #5468ff 0%, #7a39fa 100%);
+  height: 70px;
+  padding: 0 28px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  box-shadow: 0 2px 8px #0002;
+}
+
+.header-left {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+}{
+  "name": "dong-store",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

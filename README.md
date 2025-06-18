@@ -59,4 +59,3 @@ export default App;.app-root {
   "scripts": {
     "start": "react-scripts start"
   }
-}
